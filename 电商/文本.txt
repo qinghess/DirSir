@@ -1,0 +1,7 @@
+index：首页
+classify：分类
+member：绿卡会员
+cart：购物车
+mine：我的
+
+数据在utils文件夹里
