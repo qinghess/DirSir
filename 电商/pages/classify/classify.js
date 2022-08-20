@@ -1,10 +1,16 @@
 // pages/classify/classify.js
+import newList from "../../utils/product"
 Page({
 
 	/**
 	 * 页面的初始数据
 	 */
 	data: {
+		w:"全部",
+		newList,//初始化
+		isFull:false,
+		index:0,//获取下标
+
 
 	},
 
@@ -60,7 +66,27 @@ Page({
 	/**
 	 * 用户点击右上角分享
 	 */
-	onShareAppMessage: function () {
-
-	}
+	onShareAppMessage: function () {},
+	onClick(){
+		this.setData({
+			isFull:!this.data.isFull,
+		});
+		if(this.data.isFull == true){
+			this.setData({
+				w:"x"
+			});
+			console.log("111111");
+		}else{
+			this.setData({
+				w:"全部"
+			});
+		};
+	},
+	click(e){
+		const index = e.mark.index;
+		console.log(index);
+		this.setData({
+			index,
+		})
+	},
 })

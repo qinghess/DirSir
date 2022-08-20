@@ -1,1 +1,11 @@
 <!--pages/classify/classify.wxml-->
+<view class="{{isFull == true?'':'header'}}">
+	<view class="{{isFull == true?'quan1':'quan'}}">全部分类</view>
+	<block wx:for="{{newList}}" wx:key="id">
+		<view class="{{isFull == true?'s':'small_box'}}" bind:tap="click" mark:index="{{index}}">
+			<image src="{{item.gimage}}"></image>
+			<text>{{item.title}}</text>
+		</view>
+	</block>
+	<view class="clear {{isFull == ture?'ss':'font'}}" bind:tap="onClick">{{w}}</view>
+</view>
