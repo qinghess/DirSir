@@ -1,2 +1,35 @@
 <!--index.wxml-->
-<text>pages/index/index.wxml</text>
+
+
+
+
+
+
+
+
+
+
+
+<view class="main">
+
+	<c-duanSwiper duanData="{{duanData}}">
+		<text slot="titleLeft">限时抢购：</text>
+		<text slot="titleRight">00:{{listData[0].countDown}}</text>
+	</c-duanSwiper>
+
+	<block wx:for="{{duanData}}" wx:key="*this">
+		<view class="main_list">
+			<view class="main_left">
+				<view>{{item.name}}</view>
+				<image src="{{item.img}}"></image>
+				<text>35.9</text>
+			</view>
+			<view class="main_right">
+				<view>{{item.name1}}</view>
+				<image src="{{item.img1}}"></image>
+				<text>35.9</text>
+			</view>
+		</view>
+	
+	</block>
+</view>

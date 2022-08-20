@@ -1,0 +1,23 @@
+<!--components/duanSwiper/duanSwiper.wxml-->
+<view class="main_box">
+	<view class="main_box_swiper">
+		<view class="daojishi">
+			<slot name="titleLeft"></slot>
+			<slot name="titleRight"></slot>
+		</view>
+		<swiper autoplay="false" circular vertical>
+			<block wx:for="{{duanData}}" wx:key="*this">
+				<swiper-item>
+					<view class="swiperLeft">
+						<image src="{{item.img}}"></image>
+						<text class="duanPrinc">￥{{item.many}}</text>
+					</view>
+					<view class="swiperLeft">
+						<image src="{{item.img1}}"></image>
+						<text class="duanPrinc">￥{{item.many1}}</text>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+</view>
