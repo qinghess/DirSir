@@ -1,2 +1,30 @@
 <!--index.wxml-->
-<text>pages/index/index.wxml</text>
+<!-- 头部-header -->
+<view class="header">
+    <!-- 搜索框 -->
+    <view class="search_box">
+        <!-- 搜索框-input -->
+        <view class="search_left">
+            <icon type="search"></icon>
+            <input placeholder="日日鲜" type="text"/>
+        </view>
+        <!-- 搜索按钮 -->
+        <view class="search_btn">
+        搜索
+        </view>
+    </view>
+</view>
+<!-- 页面主体部分-main -->
+<view class="main">
+    <view class="main_one">
+        <block wx:for="{{pro}}" wx:key="id">
+            <view class="one_box">
+                <view class="one_img">
+                    <image src="{{item.gimage}}"></image>
+                </view>
+                <view class="text">{{item.title}}</view>
+             </view>
+        </block>
+    </view>
+</view>
+<!-- 页面主体完成 -->
