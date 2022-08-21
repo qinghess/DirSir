@@ -1,7 +1,7 @@
 /**index.wxss**/
 .header{
   width:100%;
-  height:230rpx;
+  height:200rpx;
   background-color: rgb(240, 59, 27);
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@
   border-radius: 30rpx;
   background-color: rgb(240, 59, 27);
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
   line-height: 80rpx;
 }
@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   width:100%;
-  height:100vh;
+  height:550rpx;
 }
 .main_one{
   width:93%;
@@ -72,3 +72,13 @@
   height:130rpx;
   border-radius: 50rpx;
 }
+/* 倒计时 */
+.main_1{display:flex;flex-wrap:wrap;justify-content: space-evenly;background-color: #E6E3E3;}
+.main_list{width:320rpx;height:280rpx;display:flex;background-color: #fff;border-radius: 30rpx;padding:20rpx;box-sizing: border-box;margin-bottom: 20rpx;}
+.main_list>view{width:50%;display:flex;flex-direction: column;}
+.main_list image{width:130rpx;height:140rpx;margin:10rpx 0;}
+.main_list view,.main_right view{font-size: 30rpx;font-weight: 600;}
+
+
+
+

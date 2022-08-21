@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "c-duanSwiper":"../../components/duanSwiper/duanSwiper"
+  }
 }
