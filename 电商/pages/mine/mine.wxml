@@ -1,2 +1,48 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="box">
+    <view class="box_top">
+        <view class="top">
+            <image src="http://blog.img.duanshuilu.com/nbsd4fsd45fsd5f.jpg"></image>
+        </view>
+        <view class="bottom">
+            <view class="bottom_left">
+                <view><text class="title">雪里红</text></view>
+                <text class="cont">农家现摘5斤新鲜雪里蕻雪里红雪菜春不老雪里翁青菜蔬菜包邮</text>
+            </view>
+            <view class="bottom_right">
+                <image src="http://blog.img.duanshuilu.com/sd2fsd2fsd3fsdf.jpg"></image>
+            </view>
+        </view>
+    </view>
+    <view class="box_content">
+        <view class="content_left">
+            <image src="http://blog.img.duanshuilu.com/bbds5f54we455rerwe.jpg"></image>
+        </view>
+        <view class="content_right">
+            <view class="content_rig">
+               <view><text class="title">攸县香干</text></view>
+                <text>攸县香干238g4包软嫩湖南特产豆腐干素肉黄豆制品炒菜即食湘菜馆</text>
+            </view>
+            <view>
+                <view><text class="title">木须肉</text></view>
+                <text>鸡蛋 泡发木耳 黄瓜 腌制鸡肉片 适合午餐</text>
+            </view>
+        </view>
+    </view>
+    <view class="relation">
+        <view class="tit">
+            <text class="title">联系我们</text>
+        </view>
+        <view>
+            <image src="/imgs/icon-2.png"></image>
+        </view>
+        <view><text class="dh">000-000000</text></view>
+        <view>XXX省XXX市XXX县XXX路XXX号</view>
+        <view>周一到周五</view>
+        <view>上午9:00-12:00下午13:30-17:00</view>
+    </view>
+    <view class="footer">
+        <view>@2019版权所有</view>
+        <view>电脑版|(凡科建站提供技术支持</view>
+    </view>
+</view>
