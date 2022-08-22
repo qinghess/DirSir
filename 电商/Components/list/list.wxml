@@ -1,0 +1,11 @@
+<!--Components/list/list.wxml-->
+<block>
+	<view class="order">
+		<image class="img" src="../../imgs/img-1.jpg"></image>
+		<view class="order_middle">
+			<view class="name"></view>
+			<view class="price"></view>
+		</view>
+		<view class="order_right"></view>
+	</view>
+</block>

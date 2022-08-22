@@ -1,0 +1,4 @@
+/* Components/list/list.wxss */
+.order {display: flex;padding: 20rpx 30rpx;border-bottom: 1rpx solid #000;}
+.img {width: 180rpx;height: 180rpx;background: #f4f5f4;margin-right: 20rpx;}
+.order_middle {flex: 1;}
